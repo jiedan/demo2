@@ -1,0 +1,945 @@
+body {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", SimSun, Arial, "Helvetica Neue", Helvetica;
+    color: #333;
+}
+
+#lg_tbar {
+    margin: 0 auto;
+    min-width: 1024px;
+    height: 30px;
+    line-height: 30px;
+    background: #333;
+}
+#lg_tbar .inner, {
+    margin: 0 auto;
+    min-width: 1024px;
+}
+
+#lg_tbar .inner .left {
+    float: left;
+}
+
+#lg_tbar .inner .left > em {
+    float: left;
+    margin: 7px 8px 8px 27px;
+    width: 10px;
+    height: 15px;
+    background: url("../image/lagou1.png") no-repeat;
+}
+
+#lg_tbar .inner .left .lg_app {
+    /*border-right: 1px solid #555;*/
+    padding-right: 12px;
+    color: #08d7a2;
+}
+#lg_tbar .inner .left .lg_app:after{
+    display:inline-block;
+    position: absolute;
+    top: 7px;
+    left: 112px;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #555;
+}
+#lg_tbar .inner .left .lg_app:hover {
+    color: #05eaaf;
+}
+
+#lg_tbar .inner .left .lg_os, #lg_tbar .inner .right > a {
+    padding: 0 12px;
+    color: #c4c3c3;
+}
+
+#lg_tbar .inner .left .lg_os:hover, #lg_tbar .inner .right > a:hover {
+    color: #fff;
+}
+
+#lg_tbar .inner .right {
+    float: right;
+}
+
+#lg_tbar .inner .right > a.d1:after{
+    display:inline-block;
+    position: absolute;
+    top: 7px;
+    right: 56px;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #555;
+}
+
+/*log*/
+#lg_header #lg_tnav {
+    height: 54px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa
+}
+
+#lg_header #lg_tnav .inner {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+#lg_header #lg_tnav .lg_tnav_1 h1 {
+    margin-top: 7px;
+    width: 97px;
+    height: 35px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: -20px 0;
+    font-size: 0;
+}
+
+#lg_header #lg_tnav .city, #lg_header #lg_tnav .lg_tnav_1, #lg_header #lg_tnav ul, #lg_header #lg_tnav ul > li {
+    float: left;
+}
+
+#lg_header #lg_tnav .city {
+    padding-top: 10px;
+    padding-left: 12px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+}
+
+#lg_header #lg_tnav .city b {
+    margin-right: 8px;
+    font-weight: 400;
+}
+
+#lg_header #lg_tnav .city em {
+    font-style: normal;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+}
+
+#lg_header #lg_tnav ul {
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 54px;
+}
+
+#lg_header #lg_tnav ul > li {
+    margin: 0 16px;
+}
+
+#lg_header #lg_tnav ul > li a {
+    display: inline-block;
+    padding: 0 5px;
+    height: 53px;
+    /*border-bottom: 2px solid #00b38a;*/
+    color: #999;
+}
+
+#lg_header #lg_tnav ul > li a:hover, #lg_header #lg_tnav ul > li a.bg {
+    color: #333;
+    border-bottom: 2px solid #00b38a;
+}
+
+#lg_header #lg_tnav ul > li.new {
+    position: relative;
+}
+
+#lg_header #lg_tnav ul > li.new i {
+    position: absolute;
+    top: 5px;
+    left: 42px;
+    width: 28px;
+    height: 16px;
+    background: url("../image/icon-new-tip_6fb0a69.png") no-repeat;
+}
+
+/*11111111111111????111*/
+.container {
+    /*background: yellow;*/
+    /*????????*/
+    margin: 35px auto 0;
+    width: 1024px;
+    min-height: 835px;
+}
+
+.container .left {
+    float: left;
+    width: 230px;
+    /*height: 800px;*/
+
+}
+.container .left .leftTop{
+    background: #fafafa;
+}
+.container .left .mainNavs {
+    position: relative;
+}
+
+.container .left .mainNavs .leftMain {
+    position: relative;
+    z-index: 999;
+    padding: 6px 12px;
+    border: 2px solid #fafafa;
+    border-right:transparent;
+    /*?????????*/
+}
+
+.container .left .mainNavs > .leftMain > dl > dt {
+    margin: 10px 0;
+    padding-left: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container .left .mainNavs > .leftMain > dl > dt > span {
+    float: right;
+    margin-top: 4px;
+    width: 13px;
+    height: 14px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: -2px -20px;
+}
+
+.container .left .mainNavs > .leftMain > dl > dd > a, .container .left .mainNavs .menu_sub dd a {
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0 5px 5px 0;
+    padding: 0 8px;
+    line-height: 22px;
+    color: #555;
+}
+
+.container .left .mainNavs > .leftMain > dl > dd > a:hover {
+    text-decoration: underline;
+    color: #00b38a
+}
+
+.container .left .mainNavs .menu_sub {
+    /*?????????*/
+    display: none;
+    position: absolute;
+    left: 230px;
+    top: 0;
+    padding: 15px 30px 5px;
+    width: 540px;
+    border: 2px solid #c9cbce;
+    z-index: 888;
+    background: #fff;
+}
+
+.container .left .mainNavs:hover .leftMain {
+    border-color: #c9cbce;
+    width: 206px;
+    background: #fff;
+    /*?????????*/
+}
+
+.container .left .mainNavs:hover .menu_sub {
+    display: block;
+}
+
+.container .left .mainNavs .menu_sub > dl {
+    margin: 0 0 20px;
+    font-size: 14px;
+}
+
+.container .left .mainNavs .menu_sub > dl > dt {
+    position: absolute;
+    width: 70px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.mainNavs a {
+    color: #333;
+}
+
+.container .left .mainNavs .menu_sub dd {
+    margin-left: 100px;
+}
+
+.container .left .mainNavs .menu_sub dd a {
+    display: inline-block;
+    margin-bottom: 8px;
+    /*border-left: 1px solid #c9cbce;*/
+}
+.container .left .mainNavs .menu_sub dd a:after{
+    position: absolute;
+    margin: 5px 0 5px 15px;
+    width: 1px;
+    height: 12px;
+    background: #c9cbce;
+    content: '';
+}
+.container .left .mainNavs .menu_sub dd a.trans:after{
+    content: '';
+    width: 0;
+    height: 0;
+}
+
+.mainNavs a:hover, .container .left .mainNavs .menu_sub dd a:hover {
+    color: #00b38a;
+    text-decoration: underline;
+}
+
+.container .left .mainNavs .menu_sub dd a.colorS {
+    color: #00b38a;
+}
+
+.container .left .mainNavs .bn {
+    /*??????*/
+    /*display: none;*/
+    /*position: absolute;*/
+    /*left: 228px;*/
+    top: -40%;
+}
+.container .left .mainNavs .bn1{
+    top: -120px;
+}
+.container .left .mainNavs .bn2{
+    top: -80px;
+}
+.container .left .mainNavs .bn3{
+    top: -268px;
+}
+.container .left .mainNavs .bn4{
+    top: -165px;
+}
+.container .left .mainNavs .bn5{
+  top: -167px;
+}
+.container .left .mainNavs > .leftMain i{
+    position: absolute;
+    top: 17px;;
+    left: 60px;
+    width: 37px;
+    height: 17px;
+    background: url("../image/newLabel_6636f33.png") no-repeat;
+}
+
+/*?????????????*/
+
+.container .left .subscribe{
+    margin-top: 12px;
+    border-bottom: 2px solid #00b38a;
+    padding: 0 0 0 20px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    background: #fafafa;
+}
+.container .left .subscribe a>span{
+    display: inline-block;
+    margin-left: 20px;
+    color: #555;
+}
+.container .left .subscribe a>i{
+   float: right;
+    margin-right: 20px;
+    margin-top: 14px;
+    width: 23px;
+    height: 23px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: 0 -58px;
+}
+
+/*???*/
+.container .right {
+    float: right;
+    width: 744px;
+    /*height: 800px;*/
+    /*????????*/
+    /*background: yellowgreen;*/
+    /*????????*/
+}
+/*???????*/ /*??jsЧ??????????????д*/
+.container .right .searchBox{
+    /*border: 0 solid #00b38a;*/
+    width: 740px;
+    height: 37px;
+    background: rosybrown;
+}
+.container .right .searchBox .text{
+    float: left;
+    border: 2px solid #00b38a;
+    padding: 5px 8px 5px 10px;
+    width: 570px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 16px;
+}
+.container .right .searchBox .button{
+    float: right;
+    border: 2px solid #00b38a;
+    height: 37px;
+    width: 148px;
+    color: #FFF;
+    font-size: 18px;
+    background: #00b38a;
+    cursor: pointer;
+}
+/*???????*/
+.container .right .hotSearch{
+    margin: 6px 0 18px;
+    overflow: hidden;
+}
+.container .right .hotSearch li{
+    float: left;
+    margin-right: 20px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.container .right .hotSearch li.title{
+    margin-right: 0;
+    width: 70px;
+    color: #333;
+}
+.container .right .hotSearch li a{
+color:#00b38a ;
+}
+.container .right .hotSearch li a:hover{
+    text-decoration: underline;
+}
+/*??????  ????*/
+/*js?д*/
+.container .right .homeBanner{
+    position: relative;
+    width: 744px;
+    height: 160px;
+    margin: 0 0 18px;
+}
+.container .right .homeBanner .banner{
+    position: relative;
+    overflow: hidden;
+    width: 612px;
+    height: 160px;
+    background: #cccccc;
+}
+.homeBanner .banner .banner_bg{
+    position: absolute;
+    top:0;
+    height: 480px;
+}
+.homeBanner .banner .banner_bg>li{
+    width: 612px;
+    height: 160px;
+}
+.homeBanner .banner .banner_bg>li img{
+    display: none;
+    opacity: 0;
+    border: none;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+/*???*/
+.container .right .homeBanner .banner_control{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 121px;
+    height: 160px;
+}
+.container .right .homeBanner .banner_control em{
+    position: absolute;
+    left: -6px;
+    top:0;
+    width: 127px;
+    height: 50px;
+    background: url("../image/control_current_2d877b3.png") no-repeat;
+    z-index: 666;
+}
+.container .right .homeBanner .banner_control .thumbs>li{
+    position: relative;
+    margin-bottom: 5px;
+    border: 4px solid #d3d3d3;
+    width: 113px;
+    height: 42px;
+}
+/*four*/
+/*?????  js??д*/
+.container .right .da_thumbs{
+    list-style: none;
+    position: relative;
+    margin: 0 0 25px;
+    height: 118px;
+}
+.container .right .da_thumbs>li{
+    float: left;
+    position: relative;
+    margin-right: 8px;
+    border: 2px solid #fafafa;
+    width: 113px;
+    height: 113px;
+    background: #fff;
+    overflow: hidden;
+}
+
+
+.da_thumbs li>a{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 113px;
+    height: 113px;
+    background: #00b38a;
+    color: #fff;
+}
+.da_thumbs li a h2{
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 10px 8px 8px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+}
+.da_thumbs li a em{
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    filter: alpha(opacity=30);
+    margin: 0 6px;
+}
+.da_thumbs li a p{
+    font-size: 12px;
+    margin: 6px 8px;
+    line-height: 18px;
+}
+.container .right .da_thumbs>li.no{
+    margin-right: 0;
+}
+.container .right .da_thumbs>li img{
+    border: none;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+/*???*/
+#wap .jobTab{
+ background:#f6f6f6;
+}
+#wap .jobTab>li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 18px;
+    color: #999;
+}
+#wap .jobTab>li.selector{
+    color:#333;
+    background: #fff;
+    border-top:3px solid #00b38a ;
+}
+#wap .jobList>ul>li{
+    padding-top: 22px;
+    padding-left: 15px;
+    height: 62px;
+    background-color: #fff;
+    /*overflow: hidden;*/
+}
+#wap .jobList .jobLeft{
+    float: left;
+    width: 400px;
+}
+#wap .jobList .jobLeft .jobLeftTop,#wap .jobList .jobRight .jobRightTop{
+    height: 34px;
+}
+#wap .jobList .jobLeft h3{
+    display: inline-block;
+}
+#wap .jobList  h3>a{
+    color:#00b38a;
+    font-size: 16px;
+    line-height: 22px;
+}
+#wap .jobList .jobLeft .jobLeftTop>span{
+    margin-left: 10px;
+    color: #999;
+    font-size: 14px;
+}
+#wap .jobList .jobLeft .jobLeftBottom>span{
+    margin-right: 20px;
+    height: 28px;
+    font-size: 16px;
+    color: #fa6041;
+}
+#wap .jobList .jobLeft .jobLeftBottom>span.l{
+    font-size: 14px;
+    color:#333;
+}
+#wap .jobList .jobRight{
+    float: right;
+    width: 294px;
+}
+/*?????li*/
+#wap .jobList>ul>li.second{
+    border-bottom: 1px dashed #cccccc;
+    padding: 0;
+    height: 39px;
+    line-height: 39px;
+    background: #fafafa;
+}
+#wap  .second{
+    display: none;
+}
+#wap .jobList .second div{
+    display: inline-block;
+}
+#wap .jobList .second div.secondLeft{
+    float: left;
+    width: 400px;
+}
+#wap .jobList .second div.secondRight{
+    float: right;
+    width: 294px;
+}
+#wap .jobList .second div.secondRight>span{
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #dcdcdc;
+    padding: 0 3px;
+    height: 22px;
+    line-height: 22px;
+}
+/*??????*/
+.right .list_more{
+    position: absolute;
+    right: 162px;
+    margin-top: 25px;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    background: #00b38a;
+}
+.right .list_more:hover{
+    background: #00a57f;
+}
+.right .list_more>a{
+   padding-left: 15px;
+    padding-right: 7px;
+    color: #fff;
+}
+.right .list_more>span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: 0 -39px;
+}
+/*jsЧ??  ???*/
+.right .linkBox{
+    position: relative;
+    padding: 15px 60px 0 0;
+    margin-top: 97px;
+    margin-bottom: 120px;
+    border-top: 1px solid #ececed;
+    overflow: hidden;
+}
+.right .linkBox dt{
+    float: left;
+    margin-top: 2px;
+    width: 70px;
+    font-size: 15px;
+}
+.right .linkBox dd{
+    margin-left: 70px;
+}
+.right .linkBox  a{
+    float: left;
+    padding: 8px 9px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.right .linkBox  a:hover{
+    color: #00b38a;
+    text-decoration: underline;
+}
+.right .linkBox dd span{
+    float: left;
+    padding: 7px 0 9px;
+    font-size: 12px;
+    color: #999;
+}
+.right .expansion{
+    position: absolute;
+    right: 0;
+}
+.right .expansion .i_up{
+    display: inline-block;
+    margin-left: 2px;
+    width: 12px;
+    height: 7px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: -134px -2px;
+}
+.right .showlinkBox{
+    height: 31px;
+}
+.clearfix:before, .clearfix:after {
+    clear:both;
+    content: "";
+    display: block;}
+
+/*??????????*/
+#backTop{
+    position: fixed;
+    bottom:240px;
+    right: 100px;
+    /*margin-left: 548px;*/
+    display: block;
+    width: 28px;
+    height: 64px;
+    background: url("../image/lagou1.png")  no-repeat;
+    background-position: -36px -40px;
+}
+#backTop:hover{
+    background-position: -64px -40px;
+}
+/*???????*/
+#product-fk{
+    position: fixed;
+    right: 82px;
+    bottom: 180px;
+    width: 60px;
+    height: 50px;
+    line-height: 22px;
+    cursor: pointer;
+    z-index: 21;
+}
+#product-fk .fb-icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: url('../image/lagou1.png') left center no-repeat;
+    background-position: 0 -110px;
+}
+#product-fk .fb-icon:hover{
+    background-position: 0 -141px;
+}
+/*???.feedback-icon????????????????*/
+/*?д*/
+
+/*???*/
+#loginToolBar{
+    position: fixed;
+    /*z-index: 1000;*/
+    bottom: 100px;;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background: url("../image/footerbar_repeat_c5aebac.png") repeat-x;
+    z-index: 1000;
+}
+#loginToolBar em{
+    position: absolute;
+    top: -54px;
+    left: 55px;
+    width: 95px;
+    height: 54px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: -155px -240px;
+}
+#loginToolBar .first{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 55px;
+    width: 138px;
+    height: 45px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position:-2px -250px ;
+}
+
+#loginToolBar .too{
+    display: inline-block;
+    margin: 20px 0 0 254px;
+    padding-right: 33px;
+    height: 30px;
+    line-height: 38px;
+    font-weight: 100;
+    color: #dafaf4;
+    font-size: 32px;
+    background: url("../image/footbar_text_fd4f55f.png") right 16px no-repeat;
+}
+#loginToolBar i{
+    float: left;
+    width: 20px;
+    height: 30px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: -280px -30px;
+}
+#loginToolBar .too i.two{
+    background-position: -280px -90px;
+}
+#loginToolBar .too i.three1{
+    background-position: -280px -120px;
+}
+
+#loginToolBar .too i.five{
+    background-position: -280px 0;
+}
+#loginToolBar .too i.six{
+    background-position: -280px -270px;
+}
+#loginToolBar .too i.seven{
+    background-position: -280px -150px;
+}
+#loginToolBar b{
+    float: left;
+    width: 9px;
+    height: 30px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: -254px 14px;
+}
+#loginToolBar .three{
+    display: inline-block;
+    margin-left: 60px;
+    padding-right: 33px;
+    height: 30px;
+    line-height: 38px;
+    font-weight: 100;
+    font-size: 32px;
+    color: #dafaf4;
+    background: url("../image/footbar_text_fd4f55f.png") right bottom no-repeat;
+}
+#loginToolBar .three .one,#loginToolBar .three .five{
+    background-position: -280px -60px;
+}
+#loginToolBar .three .two,#loginToolBar .three .six{
+    background-position: -280px -30px;
+}
+#loginToolBar .three .four,#loginToolBar .three .eight{
+     background-position: -280px -240px;
+ }
+#loginToolBar .three .seven{
+    background-position: -280px -90px;
+}
+#loginToolBar div .denglu{
+    position: absolute;
+    margin-left: 80px;
+    padding-left:46px;
+    padding-right:46px;
+    background: url("../image/footbar_btn_green_ff73eb2.png") repeat-x;
+}
+#loginToolBar div .denglu i{
+    width: 50px;
+    height: 64px;
+    background: url("../image/footbar_login_72d6866.png")
+left center no-repeat ;
+}
+#loginToolBar div .denglu:hover{
+    background: url("../image/footbar_btn_green_hover_e17c99f.png") repeat-x;
+}
+#loginToolBar .red{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 260px;
+    height: 64px;
+    background:url("../image/footbar_btn_red_90cc061.png") repeat-x;
+}
+#loginToolBar .red a{
+    display: inline-block;
+    padding:0 46px;
+}
+#loginToolBar .red a i{
+    display: inline-block;
+    width: 120px;
+    height: 64px;
+    background: url("../image/footbar_register_f544a92.png") left center no-repeat;
+}
+#loginToolBar .red a:hover{
+    background: url("../image/footbar_btn_red_hover_8c30256.png") repeat-x;
+}
+/*???*/
+.footer{
+    position: relative;
+    border-top: 1px solid #ebebeb;
+    min-width: 1024px;
+    height: 67px;
+    background-color: #fff;
+    z-index: 1001;
+}
+.footer .wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+}
+.footer .wrapper .innerwrap{
+    float: right;
+    padding-top: 12px;
+    height: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+.footer .wrapper .innerwrap>div{
+    display: inline-block;
+}
+.footer .wrapper .innerwrap a{
+    margin-right: 15px;
+    color:#555;
+}
+.footer .wrapper .innerwrap .pad{
+    padding-left: 30px;
+}
+.footer .wrapper .innerwrap .new1 span{
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    background: url("../image/lagou1.png") no-repeat;
+    background-position: -57px -120px;
+}
+
+.footer .wrapper .innerwrap .new1 img{
+    display: none;
+    opacity: 0;
+    position: absolute;
+   bottom:-7px;
+    left: 240px;
+    border: 3px solid #0D9572;
+    width: 256px;
+    height: 256px;
+}
+.footer .wrapper .innerwrap .new1:hover img{
+    display: block;
+    opacity: 1;
+}
+.footer .wrapper .innerwrap .tel em{
+    font-style: normal;
+    font-size: 13px;
+    line-height: 14px;
+}
+.footer .wrapper .innerwrap .new2 img{
+    left: 420px;
+}
+.footer .footer_lagou{
+    position: absolute;
+    left: 0;
+    top: 9px;
+    z-index: 1;
+    display: block;
+    width: 198px;
+    height: 19px;
+    background: url("../image/footer_lagou_icon_e44385f.png") 0 no-repeat;
+}
+.footer .copyright{
+    margin: 35px auto;
+    padding-left: 446px;
+    width: 1024px;
+}
+.footer .copyright>a,.footer .copyright>span{
+    color: #d5d5d5;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
